@@ -1,0 +1,23 @@
+.video{
+    width: 18rem;
+    height: 200px;
+
+}
+.btn{
+    color: white;
+    background: #E50914;
+    text-decoration: none;
+    border-color: black;
+
+}
+.btn:hover{
+    color: white;
+    background: black;
+    text-decoration: none;
+    border-color: black;
+    
+}
+
+.videos{
+    margin-bottom: 10px;
+}
