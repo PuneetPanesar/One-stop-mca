@@ -1,0 +1,21 @@
+.score-img{
+    text-align: right;
+    margin-top: -220px;
+    margin-right: 250px;
+    width: 50%;
+    float:right;
+}
+.score-display{
+margin-top: 00px;
+margin-left: 100px;
+text-align: center;
+padding: 1.5rem 2.5rem;
+width: 50%;
+float:left;
+}
+.score-display h1{
+color: black;
+}
+.score-display h2{
+    color: #b4131b;
+}

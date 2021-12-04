@@ -9,7 +9,7 @@ import './VideoCard.css';
 
 const VideoCard = (props) =>{
    
- return <div>
+ return <div style={{paddingTop:'40px',backgroundColor:'black',paddingBottom:'10px'}}>
   <Card style={{ width: '18rem' , height :'14rem' ,background :'black'}}>
      
 {/*<Card.Img variant="top"  src={props.img}  className="img"/>*/}
@@ -23,7 +23,7 @@ const VideoCard = (props) =>{
  </div>
    { /*<Card.Title style={{color:'white'}} >{props.Title}</Card.Title>*/}
    <Card.Body>
-    <Button variant="primary" className="btn" >
+    <Button variant="primary" className="btn" href="https://www.youtube.com/channel/UCqnhLFHVnYZl17CwkemPpIQ">
      WATCH NOW
     </Button>
     </Card.Body>

@@ -1,0 +1,31 @@
+.carousel__card{
+    /* background-color: rgb(228, 228, 228)!important; */
+    display: grid;
+    place-items: center;
+    padding: 5%;
+    display: grid;
+    place-items: center;
+    color: black;
+}
+.carousel__card> p{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+}
+.carousel__card> h1{
+    display: grid;
+    place-items: center;
+    
+}
+.slider{
+    height: 300px;
+}
+.carousel-track{
+    height: 300px !important;
+}
+.rail{
+    height: 24 !important
+  }

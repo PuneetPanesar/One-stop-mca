@@ -1,0 +1,22 @@
+.artist-modal{
+
+    min-width: 30%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height:320px;
+}
+.btn-color{
+    background-color:#3dd1e8;
+    color: black;
+    border-color: black;
+}
+
+.card-styling{
+    border-color: black;
+    height:318px;
+    width:350px;
+}
+
+.container{
+   margin-left: "100px";
+}

@@ -1,0 +1,131 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+/*  ================= Footer header ================ */
+.footer__header{
+    display: flex;
+    flex: 1;
+    height: auto;
+    align-items: center;
+}
+.header__text{
+    margin-left: 2%;
+}
+.header__text{
+    color: rgb(148, 147, 147);
+}
+.header__join{
+    margin-left: auto;
+    display: flex;
+    flex: 0.7;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+}
+.header__join > .MuiButton-root{
+    color: white;
+    border: 1px solid #fff;
+}
+.header__join > .MuiButton-root :hover{
+    color: #E50914;
+    transition: 0.3s;
+}
+
+
+
+
+/*  ================= Footer Body ================ */
+.footer__body {
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.footer__body  a {
+    color: white;
+    text-decoration: none;
+}
+.footer__body  a:hover {
+    color: #E50914;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer__body  ul {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+
+
+/*  ================= Footer Footer ================ */
+.footer__extras{
+    margin-top: 4%;
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+.footer__icons{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footer__icons a {
+    color: white;
+    padding-right: 10px;
+}
+.footer__icons a:hover {
+    color: #E50914;
+    transition: 0.3s;
+}
+
+.footerExtra__text{
+    display: grid;
+    place-items: center;
+}
+.footerExtra__text a{
+    color: white;
+    text-decoration: none;
+}
+.footerExtra__text a:hover{
+    color: #E50914;
+    transition: 0.3s;
+}
+
+
+
+
+/*  ================= Media Query ================ */
+@media only screen and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer__header{
+        flex-direction: column;
+        padding: 0;
+    }
+    .header__join{
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .header__text{
+        display: none;
+    }
+
+
+    .footer__body{
+        flex-direction: column;
+    }
+    .body__container{
+        margin-top: 4%;
+    }
+}

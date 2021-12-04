@@ -1,0 +1,59 @@
+.outerDiv{
+    margin-top: 100px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.cls-flex{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.ques{
+    width:100%;
+    background-color: rgb(196, 194, 194);
+    border-left: 4px solid #E50914;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding: 5px;
+}
+
+.quesQ{
+    color: #E50914;
+    font-size: 24px;
+    float: left;
+    width: 10%;
+}
+
+.quesData{
+    font-weight: bold;
+    color:#504f4f;
+    justify-content: center;
+    width: 90%;
+    padding-top: 6px;
+}
+
+.ans{
+    width:100%;
+    background-color: white;
+    border-left: 4px solid gray;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding: 5px;
+}
+
+.ansA{
+    color: gray;
+    font-size: 24px;
+    float: left;
+    width: 10%;
+}
+
+.ansData{
+    color:gray;
+    justify-content: center;
+    width: 90%;
+}

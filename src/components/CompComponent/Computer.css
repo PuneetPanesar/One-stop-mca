@@ -1,0 +1,33 @@
+
+.about__header{
+    padding: 10%;
+    background-color: #fff;
+}
+.aboutHeader__headerText{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 100px;
+    border-bottom: 5px solid #c31432;
+    
+}
+.aboutHeader__subText{
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about__studentReview{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* background-color: rgb(228, 228, 228); */
+}
+.testimonials__heading{
+    display: grid;
+    place-items: center;
+    color: black;
+}
+.testimonials__text{
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 5px solid #c31432;
+}

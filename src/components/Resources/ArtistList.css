@@ -1,0 +1,21 @@
+.max-show{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0rem;
+    
+  }
+  .artist-modal{
+    min-width: 30%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+  .max-show {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .artist-modal{
+  min-width: 10%;
+ 
+  margin-top: 2rem;
+  }
+}
